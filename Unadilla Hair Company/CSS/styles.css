@@ -1,0 +1,112 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  color: #042f4b;
+  background-color: #fbc99d;
+}
+
+/* navbar css */
+.navbar {
+  background-color: #fbc99d;
+}
+
+#brand {
+  color: #042f4b;
+  font-family: cursive;
+  font-size: 40px;
+  padding-left: 4rem;
+}
+
+.tagline {
+  padding-top: 3rem;
+  text-align: left;
+  padding-left: 15rem;
+  padding-bottom: 3rem;
+}
+#stylist{
+  text-align: right;
+  padding-right: 27rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+#services{
+  text-align: left;
+  padding-left: 27rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+#testimonials{
+  text-align: right;
+  padding-right: 27rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.card {
+  background-color: #fff6da;
+  color: #042f4b;
+  padding-top: 1rem;
+  text-align: center;
+
+}
+
+
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+  border-radius: 50%;
+  height: 15rem;
+}
+
+#menu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card-deck {
+  padding-top: 5rem;
+  padding: 2rem 2rem;
+
+
+}
+#carouselExampleControls{
+  padding: 2rem 7rem 2rem 7rem;
+  text-align: center;
+  color: #042f4b;
+  background-color: #fff6da;
+  
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: #042f4b;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #042f4b;
+  background-image: none;
+
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover{
+  background-color: #fbc99d;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #042f4b;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #042f4b;
+}
